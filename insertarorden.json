@@ -1,0 +1,90 @@
+localhost:8003/apiordencompra/crearOrdenCompra
+	{
+        "idOrdCompra": 1,
+        "idCliente": 3,
+        "fecha": "2023-08-14",
+        "precioTotal": 58.85,
+        "detalle": [
+            {
+                "ordenPedidoId": 1,
+                "orderDetaId": 1,
+                "nombreProd": "CARRETILLA",
+                "descProd": "carreta de mano",
+                "idProducto": 3,
+                "cantProducto": 1,
+                "precioProducto": 58.85
+            }
+            
+
+        ]
+    }
+	
+	====
+	{
+        "idOrdCompra": 2,
+        "idCliente": 2,
+        "fecha": "2023-08-13",
+        "precioTotal": 60.50,
+        "detalle": [
+            {
+                "ordenPedidoId": 2,
+                "orderDetaId": 3,
+                "nombreProd": "PALA",
+                "descProd": "descr",
+                "idProducto": 1,
+                "cantProducto": 1,
+                "precioProducto": 10.25
+            },
+			{
+                "ordenPedidoId": 2,
+                "orderDetaId": 4,
+                "nombreProd": "CARRETIA",
+                "descProd": "descr Carreta",
+                "idProducto": 2,
+                "cantProducto": 1,
+                "precioProducto": 50.25
+            }
+            
+
+        ]
+    }
+	
+	====
+	{
+        "idOrdCompra": 19,
+        "idCliente": 2,
+        "fecha": "2023-08-13",
+        "precioTotal": 70.50,
+        "detalle": [
+            {
+                "ordenPedidoId": 19,
+                "orderDetaId": 5,
+                "nombreProd": "PALA",
+                "descProd": "descr",
+                "idProducto": 1,
+                "cantProducto": 1,
+                "precioProducto": 10.25
+            },
+			{
+                "ordenPedidoId": 19,
+                "orderDetaId": 6,
+                "nombreProd": "CARRETIA",
+                "descProd": "descr Carreta",
+                "idProducto": 2,
+                "cantProducto": 1,
+                "precioProducto": 50.25
+            },
+			{
+                "ordenPedidoId": 19,
+                "orderDetaId": 7,
+                "nombreProd": "CEMENTO",
+                "descProd": "descr Carreta",
+                "idProducto": 3,
+                "cantProducto": 1,
+                "precioProducto": 10.00
+            }
+            
+
+        ]
+    }
+	

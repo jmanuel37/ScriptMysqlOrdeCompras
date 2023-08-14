@@ -1,0 +1,30 @@
+localhost:8003/apiordencompra/apiordencompralist
+get
+[
+    {
+        "ordenId": 2,
+        "clienteId": 1,
+        "Date": "2023-08-11",
+        "precioTotal": 10.25,
+        "detalle": [
+            {
+                "ordenId": ,
+                "orderDetaId": 1,
+                "nombreProd": "PALA",
+                "descripcion": "descr",
+                "idProducto": 1,
+                "cantProducto": 2,
+                "precioProd": 10.50
+            },
+            {
+                "ordenPedidoId": 1,
+                "orderDetaId": 2,
+                "nombreProd": "CEMENTO",
+                "descProd": "descr 2",
+                "idProducto": 1,
+                "cantProducto": 2,
+                "precioProd": 8.50
+            }
+        ]
+    }
+]
