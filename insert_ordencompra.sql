@@ -8,8 +8,8 @@ insert into producto(precio_prod,nombre_prod,uni_medida_prod,descripcion_prod)va
 
 insert into orden_compra(orden_Id,cliente_id,precio_total)values(1,1,19.25);
 
-insert into orden_compra_detalle(deta_id,producto_id,nombre_prod,precio_prod,cant_producto,descripcion,orden_Id,ordencompra_orden_id)values(1,1,'CEMENTO HOLSIN',10.25,1,'CEMENTO',1,1);
-insert into orden_compra_detalle(deta_id,producto_id,nombre_prod,precio_prod,cant_producto,descripcion,orden_Id,ordencompra_orden_id)values(2,2,'PALA',9.00,1,'PALA TRUPER',1,1);
+insert into orden_compra_detalle(deta_id,producto_id,nombre_prod,precio_prod,cant_producto,descripcion,ordencompra_orden_id)values(1,1,'CEMENTO HOLSIN',10.25,1,'CEMENTO',1);
+insert into orden_compra_detalle(deta_id,producto_id,nombre_prod,precio_prod,cant_producto,descripcion,ordencompra_orden_id)values(2,2,'PALA',9.00,1,'PALA TRUPER',1);
 
 --select * from cliente;
 --select * from orden_compra;
